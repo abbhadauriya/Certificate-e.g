@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    <style>
+        .container {
+            border: none;
+            width: 70vw;
+            height: 85vh;
+            position: relative;
+        }
+
+        .up {
+            border: 1px solid black;
+            background-color: rgb(17, 17, 72);
+            width: 70vw;
+            height: 20vh;
+            position: absolute;
+        }
+
+        .certificate {
+            border: 1px solid black;
+            background-color: maroon;
+            color: white;
+            margin-top: 15vh;
+            width: 70vw;
+            height: 70vh;
+            position: absolute;
+
+        }
+
+        .logo {
+            border: 1px solid black; background-color: wheat;
+            color: maroon;
+            width: 22vw;
+            height: 30vh;
+            position: absolute;
+            margin-left: 23vw;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            text-wrap: wrap;
+            font-size: 38px;
+            /* font-family: ; */
+            text-align: center;
+            font-family: monospace;
+            font-weight: 600;
+        }
+
+        .c1 {
+            border: 3px solid yellow;
+            border-top-color: maroon;
+            width: 65vw;
+            height: 60vh;
+            margin: 0% auto;
+            padding: 0px;
+        }
+
+        .para {
+            border: none;
+            width: 60vw;
+            height: 30vh;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        span {
+            color: rgb(255, 249, 249);
+            font-size: xx-large;
+            font-family: cursive;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="up"></div>
+        <div class="certificate">
+            <div class="c1">
+                <div class="para">
+                    <p>This Certificate is awarded to <span id="name">uname</span> for having the most outstanding
+                        performance as <span id="course">ucourse</span> in Ducat in 2023.</p>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            CERTIFICATION OF APPRECIATION
+        </div>
+    </div>
+    <script>
+        // let uname="Abhishek Bhadauriya"
+        // let ucourse="Full Stack Developer";
+
+        document.getElementById('name').innerHTML = "Abhishek Bhadauriya"
+        document.getElementById('course').innerHTML = "Full Stack Developer"
+    </script>
+
+</body>
+
+</html>
